@@ -1,0 +1,113 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Lato", "Mulish", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.App {
+}
+.App-header {
+  margin-left: 270px;
+  margin-right: 200px;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Mulish;
+  align-items: center;
+}
+.logo-img {
+  height: 85%;
+}
+.avatar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.avatar-info {
+  font-size: 14px;
+}
+.font-1 {
+  font-style: italic;
+  color: #9a9a9a;
+}
+.font-2 {
+  text-align: right;
+  font-weight: bold;
+}
+.avatar-img {
+  margin-left: 5px;
+  height: 85%;
+  object-fit: contain;
+}
+.banner {
+  margin-top: 4px;
+  padding: 60px 0 56px 0;
+  font-family: Mulish;
+  /* height: 190px; */
+  background-color: #29b363;
+  text-align: center;
+  font-weight: bold;
+  border-top: 3px solid #25a059;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.banner h1 {
+  margin: 0 0 10px 0;
+}
+.banner span {
+  font-weight: normal;
+  font-size: 14px;
+}
+.jokes {
+  height: 300px;
+  border-bottom: 1px solid #ddd;
+}
+.jokes p {
+  height: 116px;
+  color: #686868;
+  margin: 46px 0 70px 300px;
+  width: 60%;
+  text-align: left;
+  font-size: 19.1px;
+}
+
+.joke-reaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.joke-reaction button {
+  height: 38px;
+  width: 260px;
+  color: #fff;
+  margin-bottom: 70px;
+  border: none;
+  cursor: pointer;
+}
+.joke-reaction button:first-child {
+  background-color: #2c7edb;
+  border-bottom: 3px solid #1c69c0;
+}
+.joke-reaction button:last-child {
+  background-color: #29b363;
+  border-bottom: 3px solid #25a059;
+}
+.footer {
+  text-align: center;
+}
+.footer p {
+  margin-left: 300px;
+  width: 60%;
+  font-size: 14px;
+  color: #9a9a9a;
+  margin-top: 20px;
+}
+.footer span {
+  color: #7c7c7c;
+}
